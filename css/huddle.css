@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    padding: 3%;
+}
+
+.mockups {
+    width: 100%;
+}
+
+.huddle {
+    width: 20%;
+    cursor: pointer;
+}
+
+.twoside {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 5%;
+}
+
+.box2 {
+    padding: 9%;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 70px;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    margin-top: 3%;
+}
+
+button {
+    font-size: 20px;
+    border-radius: 30px;
+    color: hsl(257, 40%, 49%);
+    width: 50%;
+    height: 15%;
+    margin-top: 5%;
+    border: 1px solid rgb(139, 139, 139);
+    cursor: pointer;
+}
+
+ion-icon {
+    font-size: 30px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 8px;
+    margin-left: 10px;
+}
+
+.icons {
+    float: right;
+    padding: 2% 7%;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(330, 56%, 80%);
+}
